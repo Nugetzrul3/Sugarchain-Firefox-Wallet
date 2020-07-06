@@ -12,7 +12,7 @@ window.onload = function() {
 
     var apiget = localStorage.getItem("apiSet")
 
-    // Sets History Tab to open to explorer
+    // Sets History Tab to open to explorer according to testnet or mainnet
     if (apiget == "mainnet") {
         href = "https://sugarchain.org/explorer/#/address/" + getaddress
     }
@@ -26,6 +26,7 @@ window.onload = function() {
 
 selectedEndpoint.onchange = function () {
     localStorage.setItem("apiSet", this.value)
+    // Set API on change
     setAPI()
     localStorage.removeItem("address")
     document.location.reload()
@@ -33,6 +34,7 @@ selectedEndpoint.onchange = function () {
 
 var mainnet = "https://api.sugarchain.org"
 var testnet = "https://api-testnet.sugarchain.org"
+// Set the api in local storage
 function setAPI() {
     var apiSet = localStorage.getItem("apiSet")
 
@@ -116,11 +118,11 @@ var lang = {
         'license': "Lihat Lisensi",
 
         // Tab text
-        'create-wallet': "Dompet Membuat",
-        'import-wallet': "Dompet Impor",
+        'create-wallet': "Membuat Dompet",
+        'import-wallet': "Impor Dompet",
         'your-wallet': "Dompet Anda",
         'send': "Kirim",
-        'tx-history': "Sejarah",
+        'tx-history': "Riwayat",
         'chain-info': "Data Rantai",
         'settings': "Pengaturan"
     },
@@ -164,16 +166,16 @@ var lang = {
         'langlabel': "语言",
         'endpointlabel': "钱包 后端",
         'logouttext': "登出",
-        'license': "视图 执照",
+        'license': "授权",
 
         // Tab text
-        'create-wallet': "创造 钱包",
-        'import-wallet': "进口 钱包",
-        'your-wallet': "你的 钱包",
+        'create-wallet': "创建钱包",
+        'import-wallet': "导入钱包",
+        'your-wallet': "你的钱包",
         'send': "发送",
-        'tx-history': "历史",
-        'chain-info': "网络 信息",
-        'settings': "设定值"
+        'tx-history': "历史信息",
+        'chain-info': "网络信息",
+        'settings': "设置"
     },
 
     'ja': {
