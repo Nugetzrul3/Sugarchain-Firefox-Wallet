@@ -14,4 +14,4 @@ Light sugarchain Web wallet in the form of a firefox add-on which utilises bitco
 8. Click the logo and enjoy using the Add-on. And remember to logout before you exit firefox :grin:
 
 TODO:
-- [ ] Publish on to AMO! 
+- [x] Publish on to AMO! Success!!! :grin: https://addons.mozilla.org/en-US/firefox/addon/sugarchain-wallet-extension/
