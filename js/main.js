@@ -117,7 +117,7 @@ var lang = {
         'logoutreminder': {
             'part1': "Remember to",
             'logoutlink': "Logout",
-            'part2': "before exiting Chrome",
+            'part2': "before exiting Firefox",
         },
 
         // Tab text
@@ -142,7 +142,7 @@ var lang = {
         'logoutreminder': {
             'part1': "Se souvenir de",
             'logoutlink': "Se Déconnecter",
-            'part2': "avant de sortir Chrome",
+            'part2': "avant de sortir Firefox",
         },
 
         // Tab text
@@ -190,7 +190,7 @@ var lang = {
         'logoutreminder': {
             'part1': "Ingat untuk",
             'logoutlink': "Keluar",
-            'part2': "sebelum keluar Chrome",
+            'part2': "sebelum keluar Firefox",
         },
 
         // Tab text
@@ -214,7 +214,7 @@ var lang = {
         'logoutreminder': {
             'part1': "Recuerda a",
             'logoutlink': "Cerrar sesión",
-            'part2': "antes de irse Chrome",
+            'part2': "antes de irse Firefox",
         },
 
         // Tab text
@@ -262,7 +262,7 @@ var lang = {
         'logoutreminder': {
             'part1': "记得 至",
             'logoutlink': "登出",
-            'part2': "退出前 Chrome",
+            'part2': "退出前 Firefox",
         },
 
         // Tab text
@@ -286,7 +286,7 @@ var lang = {
         'logoutreminder': {
             'part1': "覚えて に",
             'logoutlink': "ログアウト",
-            'part2': "出る前に Chrome",
+            'part2': "出る前に Firefox",
         },
 
         // Tab text
