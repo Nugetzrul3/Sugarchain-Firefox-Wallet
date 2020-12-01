@@ -1,6 +1,6 @@
 {
     "name": "Sugarchain Wallet Extension",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 2,
     "description": "Light Web Wallet for Sugarchain as a Firefox Add-on. Source code may be viewed here: https://github.com/Nugetzrul3/Sugarchain-Firefox-Wallet",
     "browser_action": {
